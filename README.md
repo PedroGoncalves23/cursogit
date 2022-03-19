@@ -1,4 +1,2 @@
-Meu primeiro git
+Meu primeiro sistema no GIIT (alterado e atualizado!)
 
-Alteração no readme
-alteração feita no master
