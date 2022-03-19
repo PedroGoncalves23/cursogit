@@ -1,0 +1,27 @@
+git config --global user.name "Pedro Goncalves"  - CONFIGURA NOME
+git config --global user.email "pedrogoncalves2306@gmail.com" - CONFIGURA EMAIL
+git config --global core.editor vscode - CONFIGURA EDITOR ESTÁ USANDO
+
+
+git init - INICIA O GIT NA PASTA 
+git status - VERIFICA OS ARQUIVOS
+git add -A - Sobe os arquivos
+git commit -m "nome" - Commita os arquivos 
+git log = Mostra os commit e quem fez
+
+git reset --hard = Deleta o ultimo comit 
+git reset --soft = Volta para o commi anterior, mas não deleta os arquivos (apenas volta o commit)
+git branch nome = cria um novo branch
+git checkout nome = muda o branch que está
+git diff = Mostra as linhas e oque foi alterado 
+git diff --name-only = mostra os arquivos que foram alterados
+git remote = Verifica se ja tem algum conteudo github
+git push (nome destino) (nome do branch)  = Enviar os arquivos que estão salvos remotamente no pc para o github
+para "esconder" arquivos no github que você não quer que fique amostra, basta criar um arquivo .gitignore na ´pasta do projeto e colocar os nomes dos arquivos que não quer que fique amostra lá
+git revert --no-edit (código do commit que quer voltar) = Reverte o ultimo commit
+git push origin (:nomeBranch) = Deleta aquele branch do repositorio gitHub
+git branch -D (nome) = Deleta o branch do seu acesso remoto
+git pull origin master = Pega as alterações feitas por outras pessoas remotamente (github) e salva localmente no seu pc.
+git clone (link do projeto) = Clona os arquivos de algum projeor que você queira.
+
+Para contribuir com outros repositorios, basta ir no projeto > Fork > Ele vair clonar o projeto para o seu repositorio após fazer as alterções caso queira subir aquela edição para o projeto principal basta dar um Pull requests no GitHub
