@@ -1,5 +1,5 @@
-git config --global user.name "Pedro Goncalves"  - CONFIGURA NOME
-git config --global user.email "pedrogoncalves2306@gmail.com" - CONFIGURA EMAIL
+git config --global user.name "Nome"  - CONFIGURA NOME
+git config --global user.email "email@gmail.com" - CONFIGURA EMAIL
 git config --global core.editor vscode - CONFIGURA EDITOR ESTÁ USANDO
 
 
